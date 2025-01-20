@@ -6,7 +6,7 @@ import gdown
 
 # Link to download the model from Google Drive
 url = 'https://drive.google.com/uc?id=1WBrSKHPPxDmiJ1jR1xKcUgIUoA2gxRwk'  # Replace with your model link
-output = 'digit_recognizer_model.h5'
+output = 'model.keras'
 
 # Download the model using gdown
 gdown.download(url, output, quiet=False)
