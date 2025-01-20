@@ -4,6 +4,8 @@ import tensorflow as tf
 from PIL import Image
 import gdown
 
+pip install --upgrade gdown
+
 # Link to download the model from Google Drive
 url = 'https://drive.google.com/uc?id=1WBrSKHPPxDmiJ1jR1xKcUgIUoA2gxRwk'  # Replace with your model link
 output = 'model.keras'
