@@ -66,7 +66,6 @@ ODC-Digit_Recognizer/
 - TensorFlow / Keras
 - NumPy
 - Streamlit
-- OpenCV
 
 ---
 
