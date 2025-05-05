@@ -1,6 +1,6 @@
 # ODC-Digit Recognizer 🔢
 
-A deep learning web application for handwritten digit recognition using a Convolutional Neural Network (CNN). Built and deployed as part of the ODC AI Track.
+A web-based deep learning project that demonstrates handwritten digit recognition using a Convolutional Neural Network (CNN), developed as part of the **AI and Data Science Scholarship** from **Orange Digital Center** in collaboration with **Amit Learning**.
 
 👉 **Live App**: [Streamlit App](https://odc-digitrecognizer.streamlit.app/)  
 📁 **GitHub Repository**: [ODC-Digit Recognizer](https://github.com/mohamedhosam4/ODC-Digit_Recognizer)
@@ -9,18 +9,18 @@ A deep learning web application for handwritten digit recognition using a Convol
 
 ## 🧠 Project Overview
 
-This project demonstrates a classic **digit recognition** pipeline using deep learning. The model is trained on the MNIST dataset and deployed with an interactive interface using [Streamlit](https://streamlit.io/).
+This project implements a **digit classification** model trained on the MNIST dataset. Users can draw digits on an interactive canvas, and the model predicts the drawn digit in real-time.
 
-Users can draw digits directly in the app and receive real-time predictions powered by a CNN model.
+The application is deployed using [Streamlit](https://streamlit.io/), offering a smooth user experience for testing the model.
 
 ---
 
 ## 🔧 Features
 
-- ✍️ Draw a digit on the canvas and get instant predictions.
-- 🧠 Uses a **Convolutional Neural Network (CNN)** trained on MNIST.
-- ⚡ Real-time feedback with a clean and responsive UI.
-- 📦 Built with **TensorFlow** and **Streamlit**.
+- ✍️ Draw a digit on a canvas and receive instant prediction.
+- 🧠 **CNN-based model** trained on MNIST for high accuracy.
+- 📦 Built with **TensorFlow / Keras** and deployed via **Streamlit**.
+- 🌐 Clean and responsive user interface.
 
 ---
 
@@ -51,11 +51,11 @@ Users can draw digits directly in the app and receive real-time predictions powe
 
 ```
 ODC-Digit_Recognizer/
-├── app.py                # Streamlit app script
-├── model/                # Trained model saved here
-├── utils.py              # Helper functions for preprocessing
-├── requirements.txt      # Project dependencies
-└── README.md             # Project description and instructions
+├── app.py                # Streamlit frontend
+├── model/                # Folder with trained model
+├── utils.py              # Utility functions
+├── requirements.txt      # Python dependencies
+└── README.md             # Project overview
 ```
 
 ---
@@ -84,4 +84,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🌟 Acknowledgments
 
-This project was built during the **ODC AI Training Track**. Special thanks to the instructors and peers for their support and feedback.
+This project was developed as part of the **AI and Data Science Scholarship** from **Orange Digital Center** in collaboration with **Amit Learning**.  
+Special thanks to the mentors and team for their guidance and support.
